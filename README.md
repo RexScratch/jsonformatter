@@ -28,7 +28,7 @@ returns a json string
   - `clean`
   - `clean compact`
   - `short lines`
-  Arguments that are manually set will override the preset.
+<br>Arguments that are manually set will override the preset.
 - `sort_keys`: whether dictionary keys are sorted or not
 - `item_sep`: the string that comes after `,` (for values) and `:` (for keys) in both lists and dicts
 - `indent`: the string determining the indent
