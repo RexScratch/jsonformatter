@@ -1,5 +1,5 @@
 # jsonformatter
-A slow Python 3 module/program for producing somewhat clean JSON strings
+A slow Python 3 module/program for producing somewhat clean JSON strings made because I was bored<br>
 The documentation is pretty bad.
 
 Requirements
@@ -19,7 +19,7 @@ Exceptions
 Functions
 --------------
 `def obj_to_json(obj, *, mode='compact', sort_keys=True, item_sep=None, indent=None, line_sep=None, max_line_len=None, str_keys=True, allow_nan_inf=True, char_subs=_char_subs)`
-Returns a json string
+returns a json string
 - `obj`: the object (string, number, boolean, None, list, or dict) to be converted to json
 - `mode`: the preset to use. This affects `item_sep`, `indent`, `line_sep`, and `max_line_len`. If this value isn't set to a valid preset, it is ignored. 
   Set this value to any of the below to use a preset:
