@@ -34,7 +34,7 @@ returns a json string
 - `indent`: the string determining the indent
 - `line_sep`: the string that separates lines
 - `max_line_len`: the max length (usually) of a line not including indentation
-- `str_keys`: if this is True, keys will always be casted to strings
+- `str_keys`: if this is True, keys will always be casted to strings to conform to the official json spec
 - `allow_nan_inf`: if this is False, `nan`, `inf`, and `-inf` values will be converted to strings to conform to the official json spec
 - `char_subs`: a list of tuples of character substitutions that are applied to strings (this is used to escape characters by default)
 
